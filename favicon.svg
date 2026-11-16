@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="AfriLaw">
+  <rect width="32" height="32" rx="4" fill="#14342b"/>
+  <!-- AL monogram -->
+  <path fill="#c9a24a" d="M7.2 24h2.35l.55-1.55h3.4L14.05 24h2.4L13.1 8.8h-2.55L7.2 24zm3.35-3.45l1.15-3.3c.18-.52.33-1.05.46-1.58h.06c.13.53.28 1.06.46 1.58l1.15 3.3h-3.28zM18.15 24h2.15V11.55h.06L24.8 24h2.2V8.8h-2.15v12.2h-.06L20.35 8.8h-2.2V24z"/>
+</svg>
