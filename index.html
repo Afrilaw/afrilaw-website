@@ -48,14 +48,16 @@ footer{background:#14342b;color:#cfd8d3;padding:28px 6vw;font-size:13px}
 <section><h2>Where we are</h2><p class="sans">AfriLaw is in early access. We're inviting a small group of law firms, organisations and funders in Zimbabwe and South Africa to work with us ahead of a wider rollout, and we're meeting people in both countries in December 2026.</p>
 <div class="soon sans"><b>Coming soon to early-access partners:</b> help drafting heads of argument, and secure document upload for plaintiffs' evidence. These are in development, not yet available, and any draft will always need checking by a qualified lawyer before it goes near a court.</div></section>
 <div class="band"><section id="demo"><h2>Request a demo</h2>
-<form class="sans" action="https://formsubmit.co/jason.schlachter@afrilaw.io" method="POST">
-<input type="hidden" name="_subject" value="AfriLaw demo request">
-<input type="hidden" name="_next" value="https://afrilaw.github.io/afrilaw-website/thanks.html">
-<input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+<form class="sans" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="e0ea26c1-8786-46f1-8b4d-77d46116756c">
+<input type="hidden" name="subject" value="AfriLaw demo request">
+<input type="hidden" name="from_name" value="AfriLaw website">
+<input type="hidden" name="redirect" value="https://afrilaw.io/thanks.html">
+<input type="checkbox" name="botcheck" class="honey" tabindex="-1" autocomplete="off">
 <input name="Name" placeholder="Name" autocomplete="name">
 <input name="Organisation" placeholder="Organisation" autocomplete="organization">
 <input name="Role" placeholder="Role" autocomplete="organization-title">
-<input name="Email" type="email" placeholder="Email" required autocomplete="email">
+<input name="email" type="email" placeholder="Email" required autocomplete="email">
 <select class="full" name="Country">
 <option value="">Country</option>
 <option>Zimbabwe</option>
